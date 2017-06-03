@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>JS Calc</title>
+		<!-- load a bunch of css that someone else wrote for us! -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	</head>
+	<body>
+
+	<div class = 'center'>
+		<ul class="collection with-header">
+	        <li class="collection-header"><h2>Cathy's JavaScript Calculator</h2></li>
+	        <li class="collection-item"><h4 id = 'screen'>Enter an Expression</h4></li>
+	    </ul>
+    </div>
+
+	<div class = 'container'>
+
+		<div class = 'center'>
+			<div class = 'row'>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>1</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>2</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>3</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn op_button'>+</button>
+				</div>
+			</div>
+			<div class = 'row'>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>4</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>5</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>6</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn op_button'>-</button>
+				</div>
+			</div>
+					<div class = 'row'>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>7</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>8</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>9</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn op_button'>*</button>
+				</div>
+			</div>
+					<div class = 'row'>
+				<div class = 'col s3'>
+					<button id = 'clear_button' class = 'btn'>clear</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>0</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn number_button purple darken-3'>.</button>
+				</div>
+				<div class = 'col s3'>
+					<button class = 'btn op_button'>/</button>
+				</div>
+			</div>
+		</div>
+		<button id = 'equal_button' class = 'btn'>Do the Math!</button>
+		</div>
+
+		<script type = 'text/javascript' src = 'javascripts/calc.js'></script>
+	</body>
+</html>
